@@ -1,6 +1,9 @@
 
 <!-- <link href="./assets/style.css" rel="stylesheet"> -->
-# <header> Portfolio/Homepage</header>
+
+<h1 style='text-align:center;'>
+  Portfolio/Homepage
+</h1>
 
 [![Portfolio snapshot][portfolioImg]](http://elegantsauce.xyz)
 
@@ -10,10 +13,3 @@
 ------------------------
 
 [portfolioImg]: ./assets/portfolio.png "Portfolio/Homepage"
-
-
-<style>
-  header {
-    text-align: center;
-  }
-</style>
