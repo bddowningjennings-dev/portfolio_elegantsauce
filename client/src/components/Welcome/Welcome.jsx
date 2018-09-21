@@ -4,7 +4,7 @@ import me from '../../assets/me.jpg'
 import redArrow from '../../assets/red_arrow.svg'
 
 const handlePortraitClick = e => {
-  e.stopPropagation()
+  e && e.stopPropagation()
   const portrait_label = document.getElementById('portrait_label')
   const { target } = { ...e }
   if (target.className.split(' ').includes('hover_portrait')) {

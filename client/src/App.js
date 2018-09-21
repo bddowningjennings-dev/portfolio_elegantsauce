@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import Promise from 'bluebird'
 
 import Header from './Layout/Header/Header'
 import Main from './Layout/Main/Main'
@@ -12,7 +11,7 @@ import './App.css'
 import gatoImg from './assets/gato.jpg'
 
 const hoverNonPortrait = e => {
-  e && e.preventDefault()
+  e && e.stopPropagation()
   
   document.getElementById('portrait').classList.remove('hover_portrait')
   document.getElementById('portrait_label').classList.remove('hover_label')
