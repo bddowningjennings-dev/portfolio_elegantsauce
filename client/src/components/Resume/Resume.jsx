@@ -7,8 +7,6 @@ import resumeRTF from '../../assets/bddowningjennings_resume.rtf'
 const resume = props => {
   return (
     <section id='resume_section' className="Resume card">
-              <a href={resumePDF} download='bddowningjennings_resume'> PDF </a>
-
       <span className="anchor" id="anchor_resume" />
       <div className="underline"></div>
       <h1>Resume</h1>
