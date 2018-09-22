@@ -1,8 +1,8 @@
 import React from 'react'
 
-import resumeImg from '../../assets/bddowningjennings_resume.jpg'
 import resumePDF from '../../assets/bddowningjennings_resume.pdf'
 import resumeRTF from '../../assets/bddowningjennings_resume.rtf'
+import resumeImg from '../../assets/bddowningjennings_resume.svg'
 
 const resume = props => {
   return (
@@ -29,6 +29,7 @@ const resume = props => {
 
       <section id="resume" className="hoverable card-panel">
         <img id="resume_pdf" alt='bddowningjennings_resume' src={ resumeImg } />
+        
       </section>
     </section>
   )
