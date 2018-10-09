@@ -13,9 +13,9 @@ const footer = props => {
       </div>
       <div className="social_links">
         <div className="spacer"></div>
-        <a href="#" className="fa fa-facebook">a</a>
+        {/* <a href="#" className="fa fa-facebook">a</a>
         <a href="#" className="fa fa-linkedin">a</a>
-        <a href="#" className="fa fa-github">a</a>
+        <a href="#" className="fa fa-github">a</a> */}
         <div className="spacer" />     
       </div>
     </footer>
