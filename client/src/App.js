@@ -48,7 +48,7 @@ class App extends Component {
       ...prevState,
       gatos: [ ...prevState.gatos, { img: gatoImg } ]
     }))
-    const { data } = await axios('http://aws.random.cat/meow')
+    const { data } = await axios('https://aws.random.cat/meow')
     this.setState(prevState => {
       const newGatos = prevState.gatos
       newGatos.pop()
