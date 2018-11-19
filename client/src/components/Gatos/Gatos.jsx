@@ -4,7 +4,9 @@ import './Gatos.css'
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 class Gatos extends Component {
-  async componentDidUpdate() {
+  async componentDidUpdate(prevProps) {
+    const { showModal } = this.props
+    if (prevProps.showModal !== showModal) return
     await sleep(40)
     document.getElementById('anchor_contact').scrollIntoView(true)
   }

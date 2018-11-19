@@ -151,6 +151,7 @@ nav > button:focus {
   object-fit: cover;
   margin: 20px auto;
   box-shadow: 0 4px 5px rgba(68, 68, 68, 0.4);
+  cursor: pointer;
 }
 .social_label > img, .portrait_label > img {
   width: 30px;
@@ -224,7 +225,11 @@ span.spacer {
   background-color: #f2ece8;
   border-radius: 8px;
 }
-.project, #btn_remove_gato {
+/* .Project { */
+  /* height: 650px; */
+  /* padding-bottom: 0; */
+/* } */
+.Project, #btn_remove_gato {
   cursor: pointer;
   /* padding-bottom: 100px; */
 }
@@ -317,6 +322,10 @@ div.btn:hover {
   .gato {
     width: 40%;
   }
+
+  /* .Project {
+    height: 600px;
+  } */
 }
 
 #portrait_label.hover_label {
@@ -367,6 +376,9 @@ div.btn:hover {
   .gato {
     width: 60%;
   }
+  /* .Project {
+    height: 400px;
+  } */
 }
 
 @media screen and (max-width: 760px) {
@@ -400,6 +412,10 @@ div.btn:hover {
   #projects_container > .card {
     width: 80%;
   }
+
+  /* .Project {
+    height: 280px;
+  } */
   .card {
     padding-right: 0;
     padding-left: 0;
@@ -438,6 +454,9 @@ div.btn:hover {
   .gato {
     width: 90%;
   }
+  /* .Project {
+    height: 150px;
+  } */
 }
 #removal_plea {
   padding-top: 15px;
@@ -452,4 +471,19 @@ div.btn:hover {
 #btn_remove_gato:hover {
   background-color: rgba(17, 95, 121, 0.808);
   color: whitesmoke;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.project-img > .project-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  background-color: rgba(128, 128, 128, 0.767);
 }
