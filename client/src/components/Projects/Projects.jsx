@@ -8,7 +8,7 @@ import ysfsOldImg from '../../assets/ysfs.png'
 import worxOldImg from '../../assets/worx_old.jpg'
 
 const ys4sProps = {
-  url: 'https://github.com/bddowningjennings-dev/yourstuff4sale',
+  url: 'https://ys4s.elegantsauce.xyz',
   title: 'YS4$',
   name: 'ys4s',
   imgSrc: ysfsImg,
